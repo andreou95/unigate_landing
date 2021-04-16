@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HAELU</title>
+
+  <link rel="icon" type="image/png" href="assets/favicon.ico">
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/dxb6ylk.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!------------------------------------ Navbar - Banner ---------------------------------------->
+  <section id="title" class="colour-section">
+    <div class="row" id="top-navbar">
+      <div class="col-lg-1 col-xs-1 col-sm-1"></div>
+      <div class="col-lg-10 col-xs-10 col-sm-10">
+        <!-- TODO 1: Add the padding to the stylesheet -->
+        <div class="container-fluid" style="padding: 0;">
+          <!------------------------------------ Nav Bar ------------------------------------------->
+
+          <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <a class="navbar-brand navbar-heading" href="#"><img id="logo"
+                src="assets/img/logo/Haelu_Logo_White_Negative_LowRes.png" alt="Haelu logo" /></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse"
+              data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+              <div class="nav ms-auto navbar-nav navbar-menu">
+                <a class="nav-item nav-link" href="#about">About Us</a>
+                <a class="nav-item nav-link" href="#team">The Team</a>
+                <a class="nav-item nav-link" href="#blog">Blog</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+      <div class="col-lg-1 col-xs-1 col-sm-1"></div>
+    </div>
+
+    <!---------------------------------------- JUMBOTRON ------------------------------------------------->
+    <div class="row">
+
+      <div class="row colour-section banner">
+        <div class="col-lg-1 col-xs-1 col-sm-1">
+          <img src="assets/img/HexLeftHeader.png" alt="Hexagon Pattern" class="hex-general hexLeftHeader">
+        </div>
+
+        <div class="col-lg-10 col-xs-10 col-sm-10">
+          <div class="definition">
+            <h1>hælu</h1>
+            <h3 class="banner-body">/hey-loo/ - noun. </h3>
+            <ol class="banner-body">
+              <li>An Anglo-Saxon word representing health, prosperity, wholeness both physically and spiritually</li>
+              <li>A Welsh tech-startup with a desire to bring innovation to health and social care</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="col-lg-1 col-xs-1 col-sm-1">
+          <img src="assets/img/HexRightHeader.png" alt="Hexagon Pattern" class="hex-general hexRightHeader">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!------------------------------------ About us ---------------------------------------->
+
+  <section id="about">
+    <div class="row">
+      <div class="col-lg-1 col-xs-1 col-sm-1"></div>
+
+      <div class="col-lg-5 col-md-10 col-xs-10 col-sm-10">
+        <h3 class="blue heading mobile-header">WHO WE ARE</h3>
+        <p class="mobile-text">The founders formed Haelu in 2020 with a passion to build innovative technologies that
+          will support a more connected and sustainable future for health and social care. Joining the Wesley Clover
+          portfolio in 2021, Haelu works alongside partner companies such as Cliniconex, to validate and develop
+          demand-led solutions.</p>
+        <div class="empty-space"></div>
+        <h3 class="blue heading mobile-header">WHAT WE DO</h3>
+        <p class="mobile-text">Our projects centre around real and raw needs that we explore with open minds and
+          iterative processes. To develop our ideas, we collaborate with those with aligned goals and most importantly,
+          individuals who will be using and benefiting from the tools we build.</p>
+        <p class="mobile-text"><a href="#contact" class="blue-hyperlink">Get in touch</a> if you have a challenge or
+          experience you would like to share.</p>
+      </div>
+
+      <div class="col-lg-5">
+        <img src="assets/img/brain.png" class="brain-image" alt="Innovation Brain Image by Chi Shiun Wu from Pixabay">
+      </div>
+
+      <div class="col-lg-1 col-xs-1 col-sm-1">
+        <img src="assets/img/HexRightAbout.png" alt="Hexagon Pattern" class="hex-general hexRightAbout">
+      </div>
+
+    </div>
+  </section>
+
+  <!------------------------------------ Meet the team ---------------------------------------->
+
+  <section id="team" class="colour-section">
+    <div class="row">
+      <div class="col-1">
+        <img src="assets/img/HexLeftTeam.png" alt="Hexagon Pattern" class="hex-general hexLeftTeam">
+      </div>
+      <div class="col-10">
+        <div class="row">
+          <h2 class="heading">MEET THE FOUNDING TEAM</h2>
+        </div>
+        <div class="row founders">
+          <!------------------------------------ Paddy ---------------------------------------->
+          <div id="Paddy" class="card founder-card" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+            aria-expanded="false" aria-controls="collapsableInfoBoxDesktop collapsableInfoBoxPaddy"
+            onclick="changeInfo('paddy');">
+            <div class="card-body paddy-card card-background">
+              <h6 class="card-title founder-title">Paddy Gardner</h6>
+              <small class="card-text">Project Lead</small>
+            </div>
+          </div>
+
+          <div class="collapse multi-collapse founder-info show-mobile" id="collapsableInfoBoxPaddy">
+            <div class="card card-body founder-content">
+              <div class="row">
+                <div class="col-sm-9">
+                  <h5 class="card-title">Speak to Paddy about...</h5>
+                  <p>Our history, ambitions and how your organisation can work together with us.</p>
+                </div>
+                <div class="col-sm-3">
+                  <a href="https://mailto:paddy@haelu.co.uk" target="_top" class="email founder-social">
+                    <i class="fas fa-envelope fa-lg"></i>
+                  </a>
+                  <a href="https://twitter.com/paddygardner0" class="twitter founder-social">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/paddy-gardner-07a9b1149/" class="linkedin founder-social">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!------------------------------------ Ellie ---------------------------------------->
+          <div id="Ellie" class="card founder-card" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+            aria-expanded="false" aria-controls="collapsableInfoBox collapsableInfoBoxEllie"
+            onclick="changeInfo('ellie');">
+            <div class="card-body ellie-card card-background">
+              <h6 class="card-title founder-title">Ellie Seddon</h6>
+              <small class="card-text">Head of Partnerships</small>
+            </div>
+          </div>
+          <div class="collapse multi-collapse founder-info show-mobile" id="collapsableInfoBoxEllie">
+            <div class="card card-body founder-content">
+              <div class="row">
+                <div class="col-sm-9">
+                  <h5 class="card-title">Speak to Ellie about...</h5>
+                  <p>Creating content together and sharing your experiences relating to care.</p>
+                </div>
+                <div class="col-sm-3">
+                  <a href="https://mailto:ellie@haelu.co.uk" target="_top" class="email founder-social">
+                    <i class="fas fa-envelope fa-lg"></i>
+                  </a>
+                  <a href="https://twitter.com/Ellie_Seddon" class="twitter founder-social">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/elinor-seddon/" class="linkedin founder-social">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------ Emily ---------------------------------------->
+          <div id="Emily" class="card founder-card" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+            aria-expanded="false" aria-controls="collapsableInfoBox collapsableInfoBoxEmily"
+            onclick="changeInfo('emily')">
+            <div class="card-body emily-card card-background">
+              <h6 class="card-title founder-title">Emily Fothergill</h6>
+              <small class="card-text">Head of Design, UX & UI</small>
+            </div>
+          </div>
+          </a>
+
+          <div class="collapse multi-collapse founder-info show-mobile" id="collapsableInfoBoxEmily">
+            <div class="card card-body founder-content">
+              <div class="row">
+                <div class="col-sm-9">
+                  <h5 class="card-title">Speak to Emily about...</h5>
+                  <p>Upgrading human processes while keeping them person-centred and user friendly.</p>
+                </div>
+                <div class="col-sm-3">
+                  <a href="https://mailto:emily@haelu.co.uk" target="_top" class="email founder-social">
+                    <i class="fas fa-envelope fa-lg"></i>
+                  </a>
+                  <a href="https://twitter.com/Fothers23" class="twitter founder-social">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/emily-fothergill-a18964158/" class="linkedin founder-social">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------ Sotos ---------------------------------------->
+          <div id="Sotos" class="card founder-card" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+            aria-expanded="false" aria-controls="collapsableInfoBox collapsableInfoBoxSotos"
+            onclick="changeInfo('sotos');">
+            <div class="card-body sotos-card card-background">
+              <h6 class="card-title founder-title">Sotos Hadjipanayi</h6>
+              <small class="card-text">Head of Software Development</small>
+            </div>
+          </div>
+          <div class="collapse multi-collapse founder-info show-mobile" id="collapsableInfoBoxSotos">
+            <div class="card card-body founder-content">
+              <div class="row">
+                <div class="col-sm-9">
+                  <h5 class="card-title">Speak to Sotos about...</h5>
+                  <p>Haelu’s technical know-how and exploring avenues for integration.</p>
+                </div>
+                <div class="col-sm-3">
+                  <a href="https://mailto:sotos@haelu.co.uk" target="_top" class="email founder-social">
+                    <i class="fas fa-envelope fa-lg"></i>
+                  </a>
+                  <a href="https://twitter.com/SotosHadj" class="twitter founder-social">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/sotos-hadjipanayi/" class="linkedin founder-social">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------------------ Giorgos ---------------------------------------->
+          <div id="Giorgos" class="card founder-card" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+            aria-expanded="false" aria-controls="collapsableInfoBox collapsableInfoBoxGiorgos"
+            onclick="changeInfo('giorgos');">
+            <div class="card-body giorgos-card card-background">
+              <h6 class="card-title founder-title">Giorgos Andreou</h6>
+              <small class="card-text">Head of Product</small>
+            </div>
+          </div>
+          <div class="collapse multi-collapse founder-info show-mobile" id="collapsableInfoBoxGiorgos">
+            <div class="card card-body founder-content">
+              <div class="row">
+                <div class="col-sm-9">
+                  <h5 class="card-title">Speak to Giorgos about...</h5>
+                  <p>Our design methodology and how we turn challenges into digital solutions.</p>
+                </div>
+                <div class="col-sm-3">
+                  <a href="https://mailto:giorgos@haelu.co.uk" target="_top" class="email founder-social">
+                    <i class="fas fa-envelope fa-lg"></i>
+                  </a>
+                  <a href="https://twitter.com/this_is_giorgos" class="twitter founder-social">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/giorgos-andreou/" class="linkedin founder-social">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row hide-mobile">
+          <div id="collapsableInfoBoxDesktop" class="collapse multi-collapse founder-info">
+            <div class="card card-body founder-content">
+              <div class="row">
+                <div class="col-lg-8 col-md-8">
+                  <h5 id="founder-name" class="card-title">Speak to me about...</h5>
+                  <p id="info1">Collaborating with Haelu</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 founder-socials">
+                  <a id="founder-email" href="https://mailto:team@haelu.co.uk" target="_top"
+                    class="email founder-social">
+                    <i class="fas fa-envelope fa-lg"></i>
+                  </a>
+                  <a id="founder-twitter" href="#" class="twitter founder-social">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                  <a id="founder-linkedin" href="#" class="linkedin founder-social">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="team-quote">
+            <!-- <p class="team-open-quotemark">"</p>
+            <p class="team-quote">Talent wins games, but teamwork and intelligence win championships.</p>
+            <p class="team-close-quotemark">"</p>
+            <p class="team-quote-author">- Michael Jordan</p> -->
+            <div class="open-quotemark">
+              <div class="close-quotemark">
+                <p class="team-quote-content">Unity is strength... when there
+                  is teamwork and collaboration, wonderful things can be achieved.<br><span
+                    class="team-quote-author">Mattie J.T. Stepanek</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </section>
+  <!----------------------------------- Blog ------------------------------------------->
+
+  <section id="blog">
+    <div class="row" id="blog-row">
+      <div class="col-lg-1 col-xs-1 col-sm-1">
+        <img src="assets/img/HexLeftBlog.png" alt="Hexagon Pattern" class="hex-general hexLeftBlog">
+      </div>
+      <div class="col-lg-10 col-xs-10 col-sm-10">
+        <h2 class="blue heading mobile-header">BLOG</h1>
+          <p class="body mobile-text">
+            A large part of what we do at Haelu is speaking with the industry - with people like you, learning from
+            those
+            with experience and following upcoming trends within the sector.<br>
+            <br>
+            If 2020 taught us anything, it is that when we work together we are stronger and that there is a world of
+            innovators and a wealth of
+            solutions available that work tirelessly to address those needs that are burdening our workforce and our
+            communities.<br>
+            <br>
+            Which is why, as part of our road map are using this page as a way to engage with and promote those
+            providers
+            who are bringing
+            benefits to our most valuable asset - the health and social care system. If you would like to feature on our
+            media page, please
+            don't hesitate to get in touch.<br>
+          </p>
+          <button type="button" class="btn btn-primary contact-submit-btn blog-btn"><a
+              href="https://blog.haelu.co.uk">READ OUR BLOG</a></button>
+      </div>
+      <div class="col-lg-1 col-xs-1 col-sm-1">
+        <img src="assets/img/HexRightBlog.png" alt="Hexagon Pattern" class="hex-general hexRightBlog">
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------- Contact Us ----------------------------------------->
+
+  <!-- name,email,phone,organisation,job title,reson for getting in touch(dropdown), message, checkbox(subscribe), submit -->
+  <section id="contact" class="colour-section mobile-text">
+    <div class="container-fluid">
+      <div class="row" id="contact-image">
+        <div class="ccol-lg-1 col-sm-1 col-xs-1"></div>
+        <div class="col-xs-10 col-sm-10 col-lg-5">
+          <h2 class="heading contact-heading">CONTACT US</h2>
+
+          <p class="cta">Want to get in touch or simply want to be kept up to date
+            with Haelu? Then send us a message today and we'll get back to you as soon as possible.</p>
+          <div>
+            <div class="location-div">
+              <h3 class="company">Haelu Ltd</h3>
+              <p class="address">Wesley Clover Innovation Centre,</p>
+              <p class="address">Coldra Wood, Chepstow Road,</p>
+              <p class="address">Newport, NP18 2YB</p>
+            </div>
+            <div class="image-div">
+              <img src="assets/img/pin.png" class="pin-image">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-5 col-sm-10 col-xs-10 contact-form">
+          <h2 class="heading">SEND US A MESSAGE</h2>
+
+          <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
+          <script>
+            hbspt.forms.create({
+              portalId: "8263905",
+              formId: "e6c5c36f-5fe0-4fa0-a319-5957569dba3e"
+            });
+          </script>
+
+          <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+        </div>
+      </div><!-- contact form div -->
+  </section>
+
+  <!----------------------------------------- Footer ----------------------------------------->
+  <footer id="footer">
+    <div class="row">
+      <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+      <div class="col-lg-3 col-sm-3 col-xs-3">
+        <h1><a href="#title" class="footer-text"><img src="assets/img/logo/Haelu_Logo_White_Negative_LowRes.png"
+              alt="Haelu logo" class="footer-logo" /></a></h1>
+        <div class="haelu-socials">
+          <i href="#" class="fab fa-linkedin-in fa-2x haelu-social"></i>
+          <i href="#" class="fab fa-twitter fa-2x haelu-social"></i>
+          <i href="#" class="fab fa-facebook-f fa-2x haelu-social"></i>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-6 col-xs-6 site-links">
+        <h5 class="footer-title">SITE LINKS</h5>
+        <p><a class="site-link" href="#about">About Us</a></p>
+        <p><a class="site-link" href="#team">Meet the Founding Team</a></p>
+        <p><a class="site-link" href="#blog">Blog</a></p>
+        <p><a class="site-link" href="#contact">Contact Us</a></p>
+      </div>
+      <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+      <div class="col-lg-5 col-sm-10 col-xs-10">
+        <br>
+        <p class="copyright-text"><i class="far fa-copyright"></i> HAELU LTD 2021</p>
+        <p class="copyright-text">City vector image created by freepik - www.freepik.com</p>
+      </div>
+      <div class="col-lg-1 col-sm-1 col-xs-1"></div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <script src="js/myscript.js"></script>
+</body>
+
+</html>
