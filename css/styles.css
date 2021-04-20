@@ -1,7 +1,7 @@
 /************** ALWAYS APPLICABLE REGARDLESS OF SCREEN SIZE *************/
 /************** GENERAL *************/
 .colour-section {
-	background-color: #32C2C2;
+	background-color: #D3D3D3;
 	color: white;
 }
 
@@ -86,11 +86,11 @@ html, body {
 }
 
 .paddy-card {
-	background-image: url("../assets/img/Paddy.JPG");
+	background-image: url("../assets/img/undraw_Chat_bot_re_e2gj.png");
 }
 
 .paddy-card:hover {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/img/Paddy.JPG");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("C:/Users/Giorgos/Downloads/undraw_Internet_on_the_go_re_vben.svg");
 }
 
 .ellie-card {
@@ -210,7 +210,7 @@ html, body {
 
 /******************************** CONTACT US *************************************/
 #contact-image{
-	background-image: url('../assets/img/ContactUsBackground-01.jpg');
+	background-image: url('../assets/img/map.jpg');
 	background-size: cover;
 	background-repeat:no-repeat;
 	padding: 3rem 0;
