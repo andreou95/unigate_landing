@@ -748,7 +748,7 @@ html, body {
 	}
 
 	.open-quotemark {
-		background-image: url('../assets/img/open-quotemark.png');
+		background-image: url('../assets/img/logo/unigate/open-quotemark.png');
 		background-size: 80px 65px;
 		background-repeat: no-repeat;
 		background-position: 3% 0%;
@@ -763,7 +763,7 @@ html, body {
 	}
 
 	.close-quotemark {
-		background-image: url('../assets/img/close-quotemark.png');
+		background-image: url('../assets/img/logo/unigate/close-quotemark.png');
 		background-size: 80px 65px;
 		background-repeat: no-repeat;
 		background-position: 95% 65%;
